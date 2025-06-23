@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mehendi design</title>
+
+</head>
+
+<body>
+
+    <!--Header section-->
+    <header>
+        <div class="navbar">
+            <div class="logo-container">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="menu-icon">☰</div>
+            </div>
+            <ul class="nav-elements">
+                <li><a href=#hero-sec>Home</a></li>
+                <li><a href=#services>Services</a></li>
+                <li><a href=#about>About</a></li>
+                <li><a href=#gallery>Gallery</a></li>
+                <li><a href=#contact>Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <!--Hero section-->
+        <div class="hero-sec">
+            <h1>"Royal Mehendi Designs for Every Bride</h1>
+            <p>हर हाथ की कहानी है ख़ास — Mehendi Queen के साथ</p>
+        </div>
+
+
+        <!--service section-->
+
+        <section id="services">
+            <h1>Our Services</h1>
+            <div class="service-container">
+                <div class="service-box">
+                    <img src="images/bridal.jpg">
+                    <h2>Bridal Mehendi</h2>
+                    <p>Intricate designs for your big day</p>
+                </div>
+                <div class="service-box">
+                    <img src="images/arabic.jpeg">
+                    <h2>Arabic Mehendi</h2>
+                    <p>Bold floral patterns with flowing vines, perfect gfor festive vibes</p>
+                </div>
+                <div class="service-box">
+                    <img src="images/rajasthani.jpeg">
+                    <h2>Rajasthani Mehendi</h2>
+                    <p>Rich traditional artwork featuring peacocks, dhols, and cultural elements</p>
+                </div>
+                <div class="service-box">
+                    <img src="images/indowestern.jpeg">
+                    <h2>Indowestern Mehendi</h2>
+                    <p>A stylish blend of Indian elegance and modern patterns</p>
+                </div>
+                <div class="service-box">
+                    <img src="images/tattoo.jpeg">
+                    <h2>Tatoo Mehendi</h2>
+                    <p>Minimalistic, chic, and perfect for casual and party looks</p>
+                </div>
+                <div class="service-box">
+                    <img src="images/custom.jpeg">
+                    <h2>Custom Mehendi</h2>
+                    <p>Designed tailored to your choice-names, portraits or anything personal, made just for you</p>
+                </div>
+            </div>
+        </section>
+
+        <!--about section-->
+        <section id="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        Welcome to <strong>Mehendi Queen</strong>, where tradition meets art.  
+        With years of experience in bridal and festive mehendi, we specialize in creating  
+        personalized, intricate designs that make your moments even more memorable.
+      </p>
+      <p>
+        Whether it's a big fat wedding or a joyful festival, our goal is to add beauty and  
+        elegance to your celebrations with our mehendi designs crafted from pure love & passion.
+      </p>
+    </div>
+    <div class="about-img">
+      <img src="images/about.jpg" alt="Mehendi Artist">
+    </div>
+  </div>
+</section>
+
+
+        <!--gallery section-->
+
+        <section id="gallery">
+            <h2>Welcome to our Mehendi gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-box">
+                    <img src="images/design1.jpg">
+                </div>
+                <div class="gallery-box">
+                    <img src="images/design2.jpg">
+                </div>
+
+                <div class="gallery-box">
+                    <img src="images/design3.jpg">
+                </div>
+
+                <div class="gallery-box">
+                    <img src="images/design4.jpg">
+                </div>
+
+                <div class="gallery-box">
+                    <img src="images/design5.jpg">
+                </div>
+
+                <div class="gallery-box">
+                    <img src="images/design6.jpg">
+                </div>
+
+            </div>
+        </section>
+
+        <!--contact section-->
+        <section id="contact">
+  <h2>Contact Us</h2>
+  <form action="/submit" method="POST" id="contact-form" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <input type="date" name="date" required>
+    <input type="text" name="location" placeholder="City/Location" required>
+    <textarea name="message" placeholder="Your Message or Event Details" required></textarea>
+    <div id="formStatus" class="form-status"></div>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+        
+    </main>
+
+    <!--footer-->
+    <footer>
+  <div class="footer-container">
+    <p>&copy; 2025 Mehendi Queen. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="#" target="_blank"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+      <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+    </div>
+  </div>
+</footer>
+
+<!--javascript-->
+<script>
+    document.querySelector('.menu-icon').addEventListener('click', function() {
+  document.querySelector('.nav-elements').classList.toggle('active');});
+</script>
+</body>
+</html>
