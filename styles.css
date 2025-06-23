@@ -164,7 +164,7 @@ ul a{
 .hero-sec{
     display: flex;
     flex-direction: column-reverse;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('/images/hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('images/hero.jpg');
     object-fit: cover;
     width: max-width;
     height: auto;
@@ -189,7 +189,7 @@ ul a{
   .hero-sec{
     display: flex;
     flex-direction: column-reverse;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('/images/hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('images/hero.jpg');
     object-fit: cover;
     width: max-width;
     height: auto;
